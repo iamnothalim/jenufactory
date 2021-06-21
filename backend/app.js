@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-
+//나는 주석을 추가한 것이여
 const jwtMiddleware = require("./lib/jwtMiddleware");
 
 const indexRouter = require('./routes/index');
